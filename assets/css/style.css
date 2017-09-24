@@ -805,17 +805,17 @@ textarea.form-control {
 /*---------------*/
 
 figure.effect-bubba {
-	background: #9E5400;
+	background: gray;
 }
 
 figure.effect-bubba img {
-	opacity: 0.7;
+	opacity: 0.5;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
 figure.effect-bubba:hover img {
-	opacity: 0.4;
+	opacity: 0.1;
 }
 
 figure.effect-bubba figcaption::before,
@@ -956,6 +956,10 @@ figure.effect-bubba:hover p {
 .cbp-qtrotator .cbp-qtcontent img {
 	float: right;
 	margin-left: 3em;
+}
+
+.about_me {
+	font-size: 18px;
 }
 
 /* Example for media query */
